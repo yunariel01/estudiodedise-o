@@ -6,6 +6,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 body {
+    background-color: mintcream;
     height: 100vh;
     margin: 10px;
 }
@@ -21,7 +22,7 @@ main {
 }
 footer {
     grid-area: footer;
-    background-color: lightblue;
+    background-color: lightcyan;
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,11 +38,11 @@ article {
     padding: 10px;
     font-size: 20px;
 }
-ul li {
+ul div {
     grid-area: menu;
     padding: 10px;
     font-size: 20px;
-    margin: 10px;
+    margin: 5px;
 }
 img {
     margin: 5px;
@@ -55,7 +56,7 @@ nav {
 }
 .linea {
     grid-area: linea;
-    margin: 20px 100px;
+    margin: 3px 100px;
     border-bottom: 1px solid #000;
 }
 /* Clases */
@@ -147,6 +148,97 @@ nav {
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     grid-template-rows: 1fr 1fr 3fr 1fr;
+}
+/* Animacion */
+.headerAnimado {
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-duration: 1.2s;
+}
+.imgAnimadoUno {
+    animation-name: monoUno;
+    animation-duration: 1.1s;
+    animation-iteration-count: 1;
+}
+.imgAnimadoDos {
+    animation-name: monoDos;
+    animation-duration: 1.1s;
+    animation-iteration-count: 1;
+}
+.imgAnimadoTres {
+    animation-name: monoTres;
+    animation-duration: 1.1s;
+    animation-iteration-count: 1;
+}
+.sectionAnimado {
+    animation-name: acerca;
+    animation-iteration-count: 1;
+    animation-duration: 0.8s;
+}
+.footerAnimado {
+    animation-name: footer;
+    animation-iteration-count: 1;
+    animation-duration: 1.2s;
+}
+@keyframes aparecer {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes monoUno {
+    from {
+        transform: translate(-260px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes monoDos {
+    from {
+        transform: translate(-230px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes monoTres {
+    from {
+        transform: translate(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes acerca {
+    from {
+        transform: translate(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+@keyframes footer {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
 }
 
 /* Desktop */
