@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 footer {
-    background-color: lightcyan;
+    background-color: rgb(247, 247, 247);
 }
 label {
     margin: 4px;
@@ -28,4 +28,8 @@ label {
 }
 .artMargen {
     margin: 4px;
+}
+.contactoFlex {
+    display: flex;
+    flex-direction: column;
 }
