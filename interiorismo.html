@@ -3,53 +3,86 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interiorismo</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="gridAreas">
-    <header class="headerAnimado">
-        <a class="logo" href="index.html">
-            <img src="img/Logo.png" alt="Logo de marca" class="logo">
-        </a>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/Logo.png" alt="" width="70" height="70">
+                    </a>
+                </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="disenos.html">Diseño</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interiorismo.html">Interiorismo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+
+                        </ul>
+                    </div>
+            </div>
+        </nav>
     </header>
-    <nav class="headerAnimado">
-        <ul class="menu">
-            <div><a href="index.html">Inicio</a></div>
-            <div><a href="nosotros.html">Nosotros</a></div>
-            <div><a href="disenos.html">Diseños</a></div>
-            <div><a href="interiorismo.html">Interiorismo</a></div>
-            <div><a href="contacto.html">Contacto</a></div>
-        </ul>
-    </nav>
-    <h1 class="linea"></h1>
-    <main class="mainFlex sectionAnimado">
-        <h1 class="titulo">Diseño de interiores</h1>
-        <section>
-            <h2 class="subDis subtitulo">Silla CH33 - Hans Wegner</h2>
-            <section class="sectionFlex">
-                <img src="img/Silla CH33.png" alt="Interiorismo">
-                <img src="img/silla-Perspectiva 2.106.jpg" alt="Interiorismo">
-                <img src="img/Silla render 1.png" alt="Interiorismo">
+    <main class="container-md">
+        <h1>Diseño de interiores</h1>
+        <section class="container">
+            <h2>Silla CH33 - Hans Wegner</h2>
+            <section class="imgCentro">
+                <img src="img/Silla CH33.png" class="img-fluid margen" alt="Interiorismo">
+                <img src="img/silla-Perspectiva 2.106.jpg" class="img-fluid margen" alt="Interiorismo">
+                <img src="img/Silla render 1.png" class="img-fluid margen" alt="Interiorismo">
             </section>
         </section>
         <section>
-            <h2 class="subtitulo sectionFlex">Estilo escandinavo</h2>
+            <h2>Estilo escandinavo</h2>
             <article>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum obcaecati eligendi aliquid quisquam quam nostrum facilis quibusdam, beatae labore perspiciatis aliquam maiores, consectetur mollitia porro dicta culpa officiis? Repellendus, nam!
                 <a class="masInformacion" href="https://batavia.es/blog/diseno-escandinavo-historia-caracteristicas/" target="blank">Más información.</a>
             </article>
             <section class="sectionFlex">
-                <img src="img/Escan1.jpg" alt="Imagen de salon">
-                <img src="img/Escan3.jpg" alt="Imagen de cuarto">
-                <img src="img/Escan2.jpg" alt="Imagen de comedor">
+                <section class="imgCentro">
+                    <img src="img/Escan1.jpg" class="img-fluid margen"  alt="Imagen de salon">
+                    <img src="img/Escan3.jpg" class="img-fluid margen"  alt="Imagen de cuarto">
+                    <img src="img/Escan2.jpg" class="img-fluid margen"  alt="Imagen de comedor">
+                </section>
+
             </section>
         </section>
     </main>
 
-    <footer class="footerAnimado">
-        <h2>Nombre de la marca</h2>
-        <h2>Mail@marca.com.ar</h2>
-        <h2>Número de tel.</h2>
-        <h3>Copyright marca © 2022</h3>
+    <footer>
+        <div class="container-fluuid">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Diseño</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Interiorismo</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
+                </ul>
+                <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+            </footer>
+        </div>
+        
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

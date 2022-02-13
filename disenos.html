@@ -2,61 +2,99 @@
 <html lang="es">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseno</title>
+    <title>Diseño</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="gridAreas">
-    <header class="headerAnimado">
-        <a class="logo" href="index.html">
-            <img src="img/Logo.png" alt="Logo de marca" class="logo">
-        </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/Logo.png" alt="" width="70" height="70">
+                    </a>
+                </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="disenos.html">Diseño</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interiorismo.html">Interiorismo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+
+                        </ul>
+                    </div>
+            </div>
+        </nav>
     </header>
-    <nav class="headerAnimado">
-        <ul class="menu">
-            <div><a href="index.html">Inicio</a></div>
-            <div><a href="nosotros.html">Nosotros</a></div>
-            <div><a href="disenos.html">Diseños</a></div>
-            <div><a href="interiorismo.html">Interiorismo</a></div>
-            <div><a href="contacto.html">Contacto</a></div>
-        </ul>
-    </nav>
-    <h1 class="linea"></h1>
-    <main class="mainFlex sectionAnimado">
-        <h1 class="titulo">Proyectos</h1>
-        <section>
-            <h2 class="subtitulo">Servicio de monopatín</h2>
+    <main class="container-sm">
+        <h1>Proyectos</h1>
+        <section class="container">
+            <h2>Servicio de monopatín</h2>
             <article>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos fugit, dolore neque sequi in itaque magnam facilis pariatur, incidunt provident nesciunt? Obcaecati modi tempora quisquam saepe atque itaque deleniti magnam.
             </article>
-            <section class="sectionFlex">
+            <section class="container imgCentro">
                 <img src="img/Render perspectiva.jpg" alt="Monopatín perspectiva" >
                 <img src="img/Detalle delante.jpg" alt="Monopatín perspectiva" >
                 <img src="img/Perspectiva atras.jpg" alt="Detalle monopatín" >
             </section>
         </section>
-        <section>
-            <h2 class="subtitulo">Funciones</h2>
+        <section class="container">
+            <h2>Funciones</h2>
             <article>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, illum. Odio saepe ipsum ipsa enim totam cupiditate alias fuga accusantium eos ea! Incidunt veritatis nobis quaerat sit earum rem. Quis?
             </article>
+            <div class="container margen">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/Gancho pliegue.jpg" class="img-fluid-lg imgCentro" alt="Gancho">
+                        <article> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam voluptatibus beatae vel provident sint earum doloremque. Esse iure, voluptatum ut non nostrum, dolores minima voluptatibus sit culpa, dolore illum.
+                        </article>
+                    </div>
+                    <div class="col">
+                        <img src="img/Despiece rodamiento.jpg" class="img-fluid-lg imgCentro" alt="Imagen de vista explotada del rodamiento">
+                        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maiores aliquid perferendis delectus pariatur modi. Eius eaque quidem, quisquam aperiam cumque quam dolore molestiae optio ratione at aliquid asperiores? Ab.
+                        </article>
+                    </div>
+                </div>
+            </div>
             <section class="nosSection">
-                <img src="img/Gancho pliegue.jpg" alt="Gancho">
-                <article> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aperiam voluptatibus beatae vel provident sint earum doloremque. Esse iure, voluptatum ut non nostrum, dolores minima voluptatibus sit culpa, dolore illum.
-                </article>
-                <img src="img/Despiece rodamiento.jpg" alt="Imagen de vista explotada del rodamiento">
-                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maiores aliquid perferendis delectus pariatur modi. Eius eaque quidem, quisquam aperiam cumque quam dolore molestiae optio ratione at aliquid asperiores? Ab.
-                </article>
+
+
             </section>
         </section>
 
     </main>
 
-    <footer class="footerAnimado">
-        <h2>Nombre de la marca</h2>
-        <h2>Mail@marca.com.ar</h2>
-        <h2>Número de tel.</h2>
-        <h3>Copyright marca © 2022</h3>
+    <footer>
+        <div class="container-fluuid">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Diseño</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Interiorismo</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
+                </ul>
+                <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+            </footer>
+        </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
