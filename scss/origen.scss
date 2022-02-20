@@ -1,0 +1,38 @@
+
+@import "bootstrap/bootstrap.scss";
+
+/* Estilos Generales */
+@mixin marPad($margen, $padding)  {
+    margin: $margen;
+    padding: $padding;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "mukta" sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    footer {
+        background-color: #6a8ec8;
+    }
+}
+label {
+    @include marPad(4px, 0)
+}
+.centrar {
+    text-align: center;
+    margin-top: 10px;
+}
+.imgCentro {
+    @extend .centrar;
+    @include marPad(10px, 5px)
+}
+.margen {
+    @include marPad(4px, 0)
+}
+.artMargen {
+    @extend label;
+}

@@ -1,0 +1,10 @@
+Se agregó una meta etiqueta con las keywords
+Se agregó una meta etiqueta de desctiption
+Se modificó el nombre del Title
+Se modifico el color del header y el footer, para dar más contraste
+Se comprimieron las imágenes de la página del index, diseño, interiorismo
+Se elimino el fondo de las imágenes de la página de diseño
+Se cambió el formato de las imágenes a webp
+Se agregó la carpeta font
+Se agregó la carpeta pages, donde incluye las distintas páginas del proyecto
+
