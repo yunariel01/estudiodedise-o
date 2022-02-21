@@ -6,5 +6,5 @@ Se comprimieron las imágenes de la página del index, diseño, interiorismo
 Se elimino el fondo de las imágenes de la página de diseño
 Se cambió el formato de las imágenes a webp
 Se agregó la carpeta font
-Se agregó la carpeta pages, donde incluye las distintas páginas del proyecto
+Se agregó la carpeta pages, donde incluye las distintas páginas del proyecto (no funcionaba en la git page, así que los saque de la carpeta pages)
 
