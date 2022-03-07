@@ -36,3 +36,7 @@ label {
 .artMargen {
     @extend label;
 }
+.nosMargen {
+    margin: 4px 0;
+    padding: 2px;
+}

@@ -11155,4 +11155,9 @@ label, .artMargen {
   padding: 0;
 }
 
+.nosMargen {
+  margin: 4px 0;
+  padding: 2px;
+}
+
 /*# sourceMappingURL=style.css.map */
